@@ -115,6 +115,8 @@ Prometheus • Grafana
 ✔ Rolling Deployment to AWS EKS
 ✔ Zero Downtime Deployment
 
+---
+
 🧠 Key Features
 
 ✅ DevSecOps Integrated CI
