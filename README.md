@@ -28,60 +28,68 @@ WanderLust is a simple MERN travel blog website ✈ This project is aimed to hel
 
 ## 🛠️ Tech Stack Used
 
+---
+
 ### 🚀 Core DevSecOps Stack
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50"/>
-  <img src="https://raw.githubusercontent.com/argoproj/argo-cd/master/docs/assets/logo.png" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45"/>
+  <img src="https://argo-cd.readthedocs.io/en/stable/assets/logo.png" height="45"/>
 </p>
 
-GitHub – Source Code Management  
-Jenkins – CI Pipeline Automation  
-Docker – Containerization  
-ArgoCD – GitOps Continuous Deployment  
+<p align="center">
+GitHub • Jenkins • Docker • ArgoCD
+</p>
 
 ---
 
-### 🔐 Security & Quality
+### 🔐 Security & Code Quality
 
 <p align="center">
-  <img src="https://owasp.org/www-project-branding/assets/images/OWASP_Logo.svg" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" width="50"/>
-  <img src="https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/logo.png" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" height="45"/>
+  <img src="https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/logo.png" height="45"/>
+  <img src="https://owasp.org/www-project-branding/assets/images/OWASP_Logo.svg" height="45"/>
 </p>
 
-OWASP Dependency Check – Vulnerability Scanning  
-SonarQube – Code Quality & Static Analysis  
-Trivy – Filesystem & Container Security Scanning  
+<p align="center">
+OWASP Dependency Check • SonarQube • Trivy
+</p>
 
 ---
 
 ### ☸️ Kubernetes & Cloud
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="50"/>
-  <img src="https://helm.sh/img/helm.svg" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="45"/>
+  <img src="https://helm.sh/img/helm.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="45"/>
 </p>
 
-AWS EKS – Managed Kubernetes Cluster  
-Helm – Package Management  
-Redis – Caching Layer  
+<p align="center">
+AWS EKS • Helm • Redis
+</p>
 
 ---
 
 ### 📊 Monitoring & Observability
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" height="45"/>
 </p>
 
-Prometheus – Metrics Collection  
-Grafana – Visualization & Dashboards  
+<p align="center">
+Prometheus • Grafana
+</p>
+
+---
+
+### 🔄 CI/CD Flow
+
+
 
 
 🔄 CI Pipeline (Jenkins)
