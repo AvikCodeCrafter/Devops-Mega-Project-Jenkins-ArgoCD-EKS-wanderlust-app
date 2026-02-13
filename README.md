@@ -88,13 +88,13 @@ Prometheus • Grafana
 ---
 ### DevSecOps Architecture
 
-![DevSecOps Architecture](assets/architecture.png)
+![DevSecOps Architecture](Assets/architecture.png)
 
 ---
 
 ### 🔄 CI/CD Flow
 
-![CI/CD Flow](assets/flow.png)
+![CI/CD Flow](Assets/flow.png)
 
 ---
 
