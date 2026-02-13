@@ -26,6 +26,78 @@ WanderLust is a simple MERN travel blog website ✈ This project is aimed to hel
 - AWS EKS (Kubernetes)
 - Helm (Monitoring using grafana and prometheus)
 
+### 🛠️ Tech Stack Used
+🚀 Core DevSecOps Stack
+<p align="center"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="60"/> <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.svg" width="60"/> <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width="60"/> <img src="https://argo-cd.readthedocs.io/en/stable/assets/logo.png" width="60"/> </p>
+
+GitHub – Source Code Management
+
+Jenkins – CI Pipeline Automation
+
+Docker – Containerization
+
+ArgoCD – GitOps Continuous Deployment
+
+🔐 Security & Quality
+<p align="center"> <img src="https://owasp.org/www-project-branding/assets/images/OWASP_Logo.svg" width="60"/> <img src="https://www.sonarqube.org/logos/index/sonarqube.svg" width="60"/> <img src="https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/logo.png" width="60"/> </p>
+
+OWASP Dependency Check – Vulnerability Scanning
+
+SonarQube – Code Quality & Static Analysis
+
+Trivy – Filesystem & Container Security Scanning
+
+☸️ Kubernetes & Cloud
+<p align="center"> <img src="https://d1.awsstatic.com/webteam/architecture-icons/AWS-Elastic-Kubernetes-Service_64.svg" width="60"/> <img src="https://helm.sh/img/helm.svg" width="60"/> <img src="https://redis.io/images/redis-white.png" width="60"/> </p>
+
+AWS EKS – Managed Kubernetes Cluster
+
+Helm – Package Management
+
+Redis – Caching Layer
+
+📊 Monitoring & Observability
+<p align="center"> <img src="https://grafana.com/static/img/logos/grafana-icon-color.svg" width="60"/> <img src="https://prometheus.io/assets/prometheus_logo_grey.svg" width="60"/> </p>
+
+Prometheus – Metrics Collection
+
+Grafana – Visualization & Dashboards
+
+🔄 CI Pipeline (Jenkins)
+
+✔ Code Checkout
+✔ Trivy Filesystem Scan
+✔ OWASP Dependency Check
+✔ SonarQube Code Analysis
+✔ Docker Image Build
+✔ Docker Push to DockerHub
+
+🚀 CD Pipeline (GitOps with ArgoCD)
+
+✔ Update Kubernetes Manifests
+✔ Push Changes to GitHub
+✔ ArgoCD Auto Sync
+✔ Rolling Deployment to AWS EKS
+✔ Zero Downtime Deployment
+
+🧠 Key Features
+
+✅ DevSecOps Integrated CI
+
+✅ Automated Vulnerability Scanning
+
+✅ GitOps Deployment Strategy
+
+✅ Kubernetes Rolling Updates
+
+✅ Monitoring Enabled
+
+✅ Email Notifications
+
+✅ Secure Credential Handling
+
+✅ Fully Automated End-to-End Flow
+
 ### How pipeline will look after deployment:
 - <b>CI pipeline to build and push</b>
 ![image](https://github.com/user-attachments/assets/20542d8b-0701-43ed-b2f8-82f8ed28d053)
