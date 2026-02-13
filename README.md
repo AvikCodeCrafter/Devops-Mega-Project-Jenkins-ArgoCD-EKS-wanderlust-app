@@ -86,11 +86,17 @@ Prometheus • Grafana
 </p>
 
 ---
+### DevSecOps Architecture
+
+![DevSecOps Architecture](assets/architecture.png)
+
+---
 
 ### 🔄 CI/CD Flow
 
+![CI/CD Flow](assets/flow.png)
 
-
+---
 
 🔄 CI Pipeline (Jenkins)
 
