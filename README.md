@@ -88,7 +88,7 @@ Prometheus • Grafana
 ---
 ### DevSecOps Architecture
 
-![DevSecOps Architecture](Assets/architecture.png)
+![DevSecOps Architecture](Assets/architectures.png)
 
 ---
 
