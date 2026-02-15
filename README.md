@@ -229,6 +229,10 @@ sudo apt-get install jenkins -y
   sudo mv /tmp/eksctl /usr/local/bin
   eksctl version
   ```
+  - ✅ Check Supported EKS Versions First
+  ```bash
+  aws eks describe-addon-versions --query 'addons[].addonVersions[].compatibilities[].clusterVersion' --output text
+  ```
   
   - <b>Create EKS Cluster (Master machine)</b>
   ```bash
