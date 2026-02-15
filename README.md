@@ -229,7 +229,7 @@ sudo apt-get install jenkins -y
   sudo mv /tmp/eksctl /usr/local/bin
   eksctl version
   ```
-  - ✅ Check Supported EKS Versions First
+  - ✅ Check Supported EKS Versions First. EKS usually supports up to specific stable versions. Very latest upstream version (like 1.35) as of 15022026 may NOT yet be supported by EKS
   ```bash
   aws eks describe-addon-versions --query 'addons[].addonVersions[].compatibilities[].clusterVersion' --output text
   ```
