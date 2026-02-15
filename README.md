@@ -234,7 +234,7 @@ sudo apt-get install jenkins -y
   ```bash
   eksctl create cluster --name=wanderlust \
                       --region=us-east-2 \
-                      --version=1.30 \
+                      --version=1.34 \
                       --without-nodegroup
   ```
   - <b>Associate IAM OIDC Provider (Master machine)</b>
@@ -249,11 +249,11 @@ sudo apt-get install jenkins -y
   eksctl create nodegroup --cluster=wanderlust \
                        --region=us-east-2 \
                        --name=wanderlust \
-                       --node-type=t2.large \
+                       --node-type=t3.medium \
                        --nodes=2 \
                        --nodes-min=2 \
-                       --nodes-max=2 \
-                       --node-volume-size=29 \
+                       --nodes-max=3 \
+                       --node-volume-size=30 \
                        --ssh-access \
                        --ssh-public-key=eks-nodegroup-key 
   ```
